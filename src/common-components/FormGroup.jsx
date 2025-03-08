@@ -22,6 +22,7 @@ const FormGroup = (props) => {
 
   return (
     <Form.Group controlId={props.name} className={props.className} isInvalid={props.errorMessage !== ''}>
+      <p>Change text here</p>
       <Form.Control
         as={props.as}
         readOnly={props.readOnly}
